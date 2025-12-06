@@ -15,7 +15,7 @@ public enum Month {
     DEC("December");
 
     private final String monthName;
-    private Month(String monthName) {
+    Month(String monthName) {
         this.monthName = monthName;
     }
 
