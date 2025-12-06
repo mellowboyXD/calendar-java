@@ -76,7 +76,7 @@ public class Calendar {
         Calendar calendar = getInstance();
         int year = calendar.getYear();
         String month = calendar.getMonthString();
-        System.out.println("\t\t" + month + " " + year);
+        System.out.println("    " + month + " " + year);
         System.out.println("Sun Mon Tue Wed Thu Fri Sat");
 
         LocalDate firstOfMonth = LocalDate.of(year, calendar.getMonthValue(), 1);
